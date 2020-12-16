@@ -1,0 +1,3 @@
+include ':plasmafractalview'
+include ':app'
+rootProject.name = "PlasmaFractalView"

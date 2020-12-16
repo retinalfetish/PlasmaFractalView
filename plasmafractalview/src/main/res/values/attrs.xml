@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlasmaFractalView">
+        <attr name="brightness" format="float" />
+        <attr name="fractal" format="string" />
+        <attr name="scaleType">
+            <enum name="center" value="0" />
+            <enum name="fill" value="1" />
+            <enum name="matrix" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PlasmaFractal">
+        <attr name="decay" format="float" />
+        <attr name="deviation" format="float" />
+    </declare-styleable>
+</resources>

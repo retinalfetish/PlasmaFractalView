@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plasmafractalview_color_fractal" translatable="false">com.unary.plasmafractalview.ColorPlasmaFractal</string>
+    <string name="plasmafractalview_grayscale_fractal" translatable="false">com.unary.plasmafractalview.GrayscalePlasmaFractal</string>
+</resources>
