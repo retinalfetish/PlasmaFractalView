@@ -308,8 +308,8 @@ public class PlasmaFractalView extends View implements Runnable {
      */
     @NonNull
     protected static LightingColorFilter brightnessFilter(float brightness) {
-        int add = brightness > 0 ? (int) (brightness * 255) : 0x000000;
-        int mul = brightness < 0 ? (int) ((1 + brightness) * 255) : 0xFFFFFF;
+        int add = brightness > 0 ? (int) (brightness * 255) : 0x00;
+        int mul = brightness < 0 ? (int) ((1 + brightness) * 255) : 0xFF;
 
         return new LightingColorFilter(mul << 16 | mul << 8 | mul, add << 16 | add << 8 | add);
     }
